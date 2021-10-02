@@ -31,7 +31,7 @@ function About() {
   return (
     <main className="relative">
       <img src={back1} alt="Stars" className="absolute w-full" />
-      <div className="p-10 lg:pt-48 container mx-auto relative">
+      <div className="p-40 lg:pt-48 container mx-auto relative">
         <section className="bg-blue-400 rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
