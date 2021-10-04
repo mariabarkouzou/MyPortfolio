@@ -11,28 +11,28 @@ function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-blue-100 hover:text-pink-200 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex items-center py-6 px-3 mr-4 text-blue-200 hover:text-pink-300 text-4xl font-bold cursive tracking-widest"
           >
             Maria Barkouzou
           </NavLink>
           <NavLink
             to="/post"
-            activeClassName="text-white bg-blue-300"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-50 hover:text-pink-200"
+            activeClassName="text-white bg-blue-500"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-100 hover:text-pink-400"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
-            activeClassName="text-white bg-blue-300"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-50 hover:text-pink-200"
+            activeClassName="text-white bg-blue-500"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-100 hover:text-pink-400"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName="text-white bg-blue-300"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-50 hover:text-pink-200"
+            activeClassName="text-white bg-blue-500"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-100 hover:text-pink-400"
           >
             About
           </NavLink>

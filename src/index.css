@@ -2,17 +2,29 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
-.cursive{
-  font-family: "Amatic SC" , cursive;
+.cursive {
+  font-family: "Amatic SC", cursive;
   font-weight: 700;
 }
 
-.prose img{
+.prose img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
 }
 
-.home-name{
+.home-name {
   font-size: 150px;
+}
+
+@media only screen and (max-width: 400px) {
+  .home-name {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .prose {
+    font-size: 14px;
+  }
 }
