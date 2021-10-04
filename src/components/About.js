@@ -32,7 +32,7 @@ function About() {
     <main className="relative">
       <img src={back1} alt="Stars" className="absolute w-full h-full object-cover" />
       <div className="lg:p-40 lg:pt-48 container mx-auto relative p-10">
-        <section className="bg-blue-400 bg-opacity-75 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-indigo-400 bg-opacity-75 rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
