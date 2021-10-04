@@ -37,7 +37,7 @@ function NavBar() {
             About
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="py-3 px-3 my-6">
           <SocialIcon
             url="https://github.com/mariabarkouzou"
             className="mr-4"
