@@ -40,6 +40,7 @@ function NavBar() {
         <div className="py-3 px-3 my-6">
           <SocialIcon
             url="https://github.com/mariabarkouzou"
+            rel="noopener"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
@@ -47,6 +48,7 @@ function NavBar() {
           />
           <SocialIcon
             url="https://www.linkedin.com/in/mariabarkouzou/"
+            rel="noopener"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
@@ -54,6 +56,7 @@ function NavBar() {
           />
           <SocialIcon
             url="https://www.youtube.com/channel/UCZAwc4NzUv8E_wsyAuJfdNg"
+            rel="noopener"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
