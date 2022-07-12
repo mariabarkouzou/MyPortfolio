@@ -39,7 +39,7 @@ function About() {
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive md:text-6xl text-gray-800 mb-4">
+            <h1 className="cursive md:text-6xl text-2xl text-gray-800 mb-4">
               Hey there. I'm{" "}
               <span className="text-gray-300">{author.name}!</span>
             </h1>
