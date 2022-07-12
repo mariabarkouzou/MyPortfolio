@@ -37,11 +37,11 @@ function NavBar() {
             About
           </NavLink>
         </nav>
-        <div className="py-3 px-3 my-6 sm:flex sm:flex-col sm:gap-4">
+        <div className="py-3 px-3 my-6">
           <SocialIcon
             url="https://github.com/mariabarkouzou"
             rel="noopener"
-            className="mr-4"
+            className="mr-4 mb-3"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
@@ -49,7 +49,7 @@ function NavBar() {
           <SocialIcon
             url="https://www.linkedin.com/in/mariabarkouzou/"
             rel="noopener"
-            className="mr-4"
+            className="mr-4 mb-3"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
@@ -57,7 +57,7 @@ function NavBar() {
           <SocialIcon
             url="https://www.youtube.com/channel/UCZAwc4NzUv8E_wsyAuJfdNg"
             rel="noopener"
-            className="mr-4"
+            className="mr-4 mb-3"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
